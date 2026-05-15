@@ -33,16 +33,15 @@ export default function LoginPage() {
   return (
     <div className="min-h-screen flex items-center justify-center bg-gray-100">
       <div className="bg-white p-8 rounded-lg shadow-md w-96">
-        {/* Logo y título */}
         <div className="text-center mb-8">
-          <div className="w-24 h-24 mx-auto mb-4 relative">
+          <div className="relative w-24 h-24 mx-auto mb-4">
             <Image
               src="/logo.png"
               alt="JJPantalones"
-              width={96}
-              height={96}
+              fill
               className="rounded-full object-cover"
               priority
+              sizes="(max-width: 768px) 96px, 96px"
             />
           </div>
           <h1 className="text-2xl font-bold text-[#003366]">JJPantalones</h1>

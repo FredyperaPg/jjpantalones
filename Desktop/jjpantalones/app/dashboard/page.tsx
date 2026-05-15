@@ -108,13 +108,13 @@ export default function DashboardPage() {
         <div className="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 relative">
-              <Image
-                src="/logo.png"
-                alt="JJPantalones"
-                width={40}
-                height={40}
-                className="rounded-full object-cover"
-              />
+               <Image
+                  src="/logo.png"
+                  alt="JJPantalones"
+                  fill
+                  className="rounded-full object-cover"
+                  sizes="40px"
+                 />
             </div>
             <div>
               <h1 className="text-white font-bold text-xl">JJPantalones</h1>
